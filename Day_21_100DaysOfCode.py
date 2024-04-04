@@ -31,3 +31,4 @@ elif lovematch < 25 or lovematch > 40:
     print("You are compatible. Tell them to rock and roll with you")
 else:
     print("Continue loving each other.All the best")
+

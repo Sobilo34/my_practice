@@ -1,0 +1,78 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Alice",
+        "email": "alice@example.com",
+        "age": 28,
+        "isActive": true,
+        "preferences": {
+          "notifications": true,
+          "theme": "dark"
+        },
+        "friends": ["Bob", "Charlie"],
+        "address": {
+          "street": "123 Maple Street",
+          "city": "Wonderland",
+          "zipCode": "12345"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Bob",
+        "email": "bob@example.com",
+        "age": 35,
+        "isActive": false,
+        "preferences": {
+          "notifications": false,
+          "theme": "light"
+        },
+        "friends": ["Alice"],
+        "address": {
+          "street": "456 Oak Avenue",
+          "city": "Utopia",
+          "zipCode": "67890"
+        }
+      }
+    ],
+    "products": [
+      {
+        "productId": 101,
+        "productName": "Widget",
+        "price": 19.99,
+        "inStock": true,
+        "categories": ["Gadgets", "Electronics"]
+      },
+      {
+        "productId": 102,
+        "productName": "Gizmo",
+        "price": 29.99,
+        "inStock": false,
+        "categories": ["Gadgets", "Household"]
+      }
+    ],
+    "settings": {
+      "version": "1.0.0",
+      "environment": "production",
+      "features": {
+        "featureA": true,
+        "featureB": false
+      },
+      "backup": null
+    },
+    "events": [
+      {
+        "eventId": "a1b2c3",
+        "eventName": "Launch Party",
+        "date": "2023-06-25T14:30:00Z",
+        "attendees": ["Alice", "Bob"]
+      },
+      {
+        "eventId": "d4e5f6",
+        "eventName": "Hackathon",
+        "date": "2023-07-10T09:00:00Z",
+        "attendees": ["Charlie"]
+      }
+    ]
+  }
+  
